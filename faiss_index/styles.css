@@ -1,0 +1,30 @@
+/* styles.css */
+.light-mode {
+    --primary-color: #1f77b4;
+    --background-color: #ffffff;
+    --secondary-background-color: #f0f0f0;
+    --text-color: #000000;
+}
+
+.dark-mode {
+    --primary-color: #1f77b4;
+    --background-color: #000000;
+    --secondary-background-color: #333333;
+    --text-color: #ffffff;
+}
+
+.streamlit-expanderHeader, .stText, .stMarkdown, .stButton, .stTextInput, .stSelectbox, .stRadio, .stCheckbox {
+    color: var(--text-color);
+}
+
+.stApp {
+    background-color: var(--background-color);
+}
+
+.stButton {
+    background-color: var(--primary-color);
+}
+
+.stMarkdown {
+    background-color: var(--secondary-background-color);
+}
